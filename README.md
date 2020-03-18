@@ -2,7 +2,7 @@
 ```json
 [
   {
-    timestamp: <unix-epoch>,
+    datetime: <YYYY-MM-DD HH:mm>,
     direction: <degrees>
   },
   ...
