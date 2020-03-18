@@ -1,3 +1,26 @@
+1. Import and convert the data contained in data_DD_MN008.csv to the following target JSON (individual readings) and display it in a table.
+```json
+[
+  {
+    timestamp: <unix-epoch>,
+    direction: <degrees>
+  },
+  ...
+]
+```
+
+
+2. Import and convert the data contained in data_DD_MN008.csv to the following target JSON (aggregated per day):
+```json
+[
+  {
+    day: <YYYY-MM-DD>,
+    direction: <mean of all degrees during the day>
+  },
+  ...
+]
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
