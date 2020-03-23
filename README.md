@@ -1,4 +1,4 @@
-1. Import and convert the data contained in data_DD_MN008.csv to the following target JSON (individual readings) and display it in a table.
+1. Import and convert the data contained in data_DD_MN008.csv to the following target array of objetcs and display it in a table.
 ```json
 [
   {
